@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+#table {
+	height: 100px;
+	width: 700px;
+	background: pink;
+	position: absolute;
+	bottom:40px;
+	left: 100px;
+	transform: skew(50deg);
+}
+#mat{
+	width: 300px;
+	height: 60px;
+	-webkit-transform: skew(50deg);
+	   -moz-transform: skew(50deg);
+	     -o-transform: skew(50deg);
+	background: #6495ED;
+	bottom:60px;
+	left: 300px;
+	position: absolute;
+}
+#candle{
+	width: 30px;
+	height: 100px;
+	background: yellow;
+	bottom: 100px;
+	left:340px;
+	position: absolute;
+
+}
+#apple{
+	position: absolute;
+	display:block;
+   	width: 40px;
+  	height: 43px;
+  	background-color: red;
+   	border-radius:         40%  40%  55%  55% ;
+   	bottom: 100px;
+   	left: 400px;
+}
+#head {
+	position:absolute;
+	display:block;
+   	width: 70px;
+  	height: 73px;
+  	background-color: grey;
+   	border-radius: 30%  30%  40%  40% ;
+   	bottom: 90px;
+   	left: 470px;
+
+}
+#roundhead {
+	position: absolute;
+	display:block;
+   	width: 90px;
+  	height: 83px;
+  	background-color: grey;
+   	border-radius:  50%;
+   	bottom: 115px;
+   	left: 472px;
+}
+#stick{
+	position: absolute;
+	width: 140px;
+	height: 6px;
+	background: green;
+	bottom: 83px;
+	left: 340px;
+}
+#rose{
+	width: 23px;
+	height: 18px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	bottom: 80px;
+	left: 480px;
+}
+#rose2{
+	width: 19px;
+	height: 15px;
+	background: red;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	bottom: 80px;
+	left: 450px;
+
+}
