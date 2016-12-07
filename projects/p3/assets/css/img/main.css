@@ -359,6 +359,22 @@ opacity: .9;
   background-color: #EFE2CE;
 
 }
+
+.con{
+  left: 18%;
+  top: 26%;
+  font-size: 150%;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-align: left;
+  width: 34%;
+  color: yellow;
+  opacity: .6;
+  font-family: helvetica;
+  font-weight: bold;
+  position: relative;
+}
+
 .oak{
   font-size: 1010%;
   text-align: left;
