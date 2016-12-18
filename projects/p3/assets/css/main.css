@@ -1,5 +1,5 @@
 body {
-  cursor: ns-resize;
+
   margin: 0;
   scroll-behavior: smooth;
   -webkit-scroll-snap-type: mandatory;
@@ -149,9 +149,10 @@ nav a {
 }
 #content {
   overflow: hidden;
-
+  cursor: ns-resize;
 }
 #content .inner {
+  cursor: ns-resize;
   width: 100vw;
   height: 100vh;
   overflow: auto;
@@ -551,14 +552,13 @@ font-size: 1.3vh;
 font-family: 'Space Mono', monospace;
 }
 .line{
-border:1px solid #7a6c9c;
+border:1px solid #dabfa3;
   display: block;
   height: .1px;
   width: 500px;
   top: 4.2%;
   left: -34.4%;
   position: absolute;
-color: black;
 z-index: 100;
  transform : rotate(-65deg);
   -moz-transform : rotate(-65deg);
@@ -567,14 +567,13 @@ z-index: 100;
 
 }
 .line2{
-border:1px solid #7a6c9c;
+border:1px solid #dabfa3;
   display: block;
   height: .01px;
   width: 265px;
   bottom: 37%;
   right: -77.5%;
   position: relative;
-color: black;
 z-index: 100;
  transform : rotate(-65deg);
   -moz-transform : rotate(-65deg);
